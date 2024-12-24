@@ -7,11 +7,9 @@ import shutil
 
 def create_folder(folder_name, path):
     if not exists(path):
-        print("path not found")
         raise FileNotFoundError ("path not found")
     new_path =  os.path.join(path,folder_name)
     if isdir(new_path):
-        print("folder already exists")
         raise FileExistsError( "folder already exists")
     os.mkdir(new_path)
 
@@ -21,7 +19,6 @@ def create_folder(folder_name, path):
 #דורס את התקייה במידה וקיימת תקיה בשם זה
 def create_file(file_name, path):
     if not exists(path):
-        print("path not found")
         raise FileNotFoundError("path not found")
     new_path = os.path.join(path,file_name)
     file = open(new_path,"w").close()

@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6df2275-78f9-41ae-9d1f-8b2eae40fc13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/witProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/handling_files_and_folders.py" afterDir="false" />
+    <list default="true" id="e6df2275-78f9-41ae-9d1f-8b2eae40fc13" name="Changes" comment="create model  handling_files_and_folders">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Commit.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Commit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/handling_files_and_folders.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/handling_files_and_folders.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Repository.executor": "Run",
     "Python.handling_files_and_folders.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -66,6 +62,43 @@
       <option name="presentableId" value="Default" />
       <updated>1735053073879</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="create model  handling_files_and_folders">
+      <option name="closed" value="true" />
+      <created>1735060169603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735060169603</updated>
+    </task>
+    <task id="LOCAL‎-00002" summary="create model  handling_files_and_folders">
+      <option name="closed" value="true" />
+      <created>1735060242688</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735060242688</updated>
+    </task>
+    <task id="LOCAL‎-00003" summary="create model  handling_files_and_folders">
+      <option name="closed" value="true" />
+      <created>1735060836369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735060836369</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="create model  handling_files_and_folders">
+      <option name="closed" value="true" />
+      <created>1735064658174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735064658174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create model  handling_files_and_folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="create model  handling_files_and_folders" />
   </component>
 </project>
