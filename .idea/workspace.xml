@@ -25,6 +25,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/racheli546/wit_project.git",
+    "accountId": "de83d415-b7f2-49f1-8028-4811c60a0393"
+  }
+}]]></component>
   <component name="LLMProjectSettings">
     <option name="turned_on" value="false" />
   </component>
@@ -94,7 +100,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1735064658174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="create model  handling_files_and_folders">
+      <option name="closed" value="true" />
+      <created>1735073074896</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735073074896</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
