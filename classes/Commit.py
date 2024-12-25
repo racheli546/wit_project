@@ -9,3 +9,9 @@ class Commit:
     def __str__(self):
         return f" {self.date} date, {self.user_name} user_name, {self.message} message"
 
+    def to_dict(self):
+        return {
+            "date": self.date,
+            "user_name": self.user_name,
+            "message": self.message
+        }
