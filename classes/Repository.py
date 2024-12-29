@@ -1,15 +1,20 @@
+# import click
 import json
 from os import listdir
+import os
 
+# # קבלת הנתיב של התיקייה בה אתה נמצא כרגע
+current_directory = os.getcwd()
+print(f"Current working directory: {current_directory}")
 from models.handling_files_and_folders import*
 import os
 from datetime import datetime
 from  classes.Commit import Commit
 
 class Repository:
-    def __init__(self, repository_path, user_name):
+    def __init__(self, path , user_name):
         self.dict_commits = {}
-        self.repository_path = repository_path
+        self.repository_path =  os.getcwd()
         self.user_name = user_name
         self.count_commit = 0
         self.load_commits()
@@ -76,6 +81,17 @@ class Repository:
                 if item != ".wit" and is_file_modified_after(path, path_last_commit):
                     list_change.append(item)
             return list_change
+
+    def append_changing_file(self):  # מוסיפה לרשימה את כל הקבצים שנעשו עליהם שינוי וצריך להציג למשתמש
+        list_change = []  # מערך שמכיל את רשימת הקבצים ששונו
+        # path_commit = os.path.join(self.repository_path,".wit","commits")
+        last_commit = find_last_created_folder(self.commits_path)
+        path_last_commit = os.path.join(self.commits_path, last_commit)
+        for item in os.listdir(self.repository_path):
+            if item != ".wit" and is_file_modified_after(os.path.join(self.repository_path, item), path_last_commit):
+                list_change.append(item)
+        return list_change
+
 
     def wit_init(self):
         try:
@@ -181,7 +197,7 @@ repo = Repository(r"C:\Users\user1\Documents\תיכנות\שנה ב\סמסטר �
 # repo.wit_init()
 
 #מוסיף לStaging Area קובץ שנעשה בו שינוי ורוצים להעלות אותו ל wit
-# repo.wit_add("in.html")
+repo.wit_add("in.html")
 # יצירת commit חדש - הכנסה שלו לקובץ הjson והוספת תקייה בשם שנשלח לתוך תקיית הcommits בתקייה יש את הפרוייקט עם הדפים שהועלו
 # repo.wit_commit("add in.html ")
 #מציג את רשימת הcommits למשתמש
