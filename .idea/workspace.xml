@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6df2275-78f9-41ae-9d1f-8b2eae40fc13" name="Changes" comment="Adding the functions wit_init, wit_add, wit_commit, wit_log, wit_status, wit_checkout  &#10;in Repository class">
-      <change afterPath="$PROJECT_DIR$/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/witProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/witProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wit.bat" afterDir="false" />
+    <list default="true" id="e6df2275-78f9-41ae-9d1f-8b2eae40fc13" name="Changes" comment="adding pages cli and wit.bat &#10;To link to the command line&#10;use with click">
+      <change beforePath="$PROJECT_DIR$/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/cli.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +133,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1735166780555</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎-00008" summary="adding pages cli and wit.bat &#10;To link to the command line&#10;use with click">
+      <option name="closed" value="true" />
+      <created>1735490407534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735490407534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create model  handling_files_and_folders" />
     <MESSAGE value="Adding the functions wit_init, wit_add, wit_commit, wit_log, wit_status, wit_checkout  &#10;in Repository class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the functions wit_init, wit_add, wit_commit, wit_log, wit_status, wit_checkout  &#10;in Repository class" />
+    <MESSAGE value="adding pages cli and wit.bat &#10;To link to the command line&#10;use with click" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding pages cli and wit.bat &#10;To link to the command line&#10;use with click" />
   </component>
 </project>

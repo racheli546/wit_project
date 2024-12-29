@@ -51,8 +51,8 @@ def add(path, file_names):
 @cli.command()
 @click.argument('message')
 @click.pass_obj
+@click.option('--message', '--m', required=True, type=str, help='Commit message')
 # @click.option('--path', default=None, type=str, help='Path to the repository')
-# @click.option('--message', required=True, type=str, help='Commit message')
 def commit(path, message):
     """
     Commit changes with a message.
